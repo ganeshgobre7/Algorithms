@@ -8,7 +8,9 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("WELCOME TO THE ALGORITHMS PROBLEM!");           
+            Console.WriteLine("WELCOME TO THE ALGORITHMS PROBLEM!");
+            BinarySearch search = new BinarySearch();
+            search.Find();
         }
     }
 }
