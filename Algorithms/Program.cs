@@ -12,7 +12,7 @@ namespace Algorithms
             int defCount = 0;
             while(defCount==0)
             {
-                Console.WriteLine("1.FindWordBST 2.InsertionSort 3.BubbleSort 4.Exit");
+                Console.WriteLine("1.FindWordBST 2.InsertionSort 3.BubbleSort 4.Anagram 5.Exit");
                 Console.WriteLine("Choose Your Option");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch(choice)
@@ -30,6 +30,11 @@ namespace Algorithms
                     case 3:
                         BubbleSort bubble = new BubbleSort();
                         bubble.BubbleSrt();
+                        break;
+
+                    case 4:
+                        Anagram anagram = new Anagram();
+                        anagram.Anagramm();
                         break;
 
                     default:
